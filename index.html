@@ -6,14 +6,27 @@
   <title>Learn - Get Started Today</title>
   <meta name="description" content=" Learn is a platform that offers free courses for everyone. Start learning today!" />
   <!-- CSS -->
-  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main.css" />  
 </head>
 
+<nav class="navbar">
+  <div class="navbar-logo">
+    <img src="./images/logo.png" width="300" />
+  </div>
+  <ul class="navbar-items">
+    <li>About Me</li>
+    <li>Journey</li>
+    <li>Goals</li>
+  </ul>
+</nav>
 <body>
- <div class="journey-list">
+<div id="coding-journey" class="journey">
+  <h2>Coding Journey</h2>
+
+  <div class="journey-list">
     <div id="intro" class="journey-card">
       <img
-        src="./images/intro-to-web.png"
+        src="/images/intro-to-web.png"
         class="journey-image"
         alt="Course Image"
       />
@@ -26,7 +39,7 @@
     </div>
 
     <div id="react" class="journey-card">
-      <img src="./images/react.png" class="journey-image" alt="Course Image" />
+      <img src="/images/react.png" class="journey-image" alt="Course Image" />
       <div>
         <h3>React Development</h3>
         <p>
@@ -36,7 +49,7 @@
     </div>
 
     <div id="backend" class="journey-card">
-      <img src="./images/backend.png" class="journey-image" alt="Course Image" />
+      <img src="/images/backend.png" class="journey-image" alt="Course Image" />
       <div>
         <h3>Back-end Development</h3>
         <p>
@@ -45,6 +58,7 @@
       </div>
     </div>
   </div>
+</div>
 
   <script src="./script.js"></script>
 </body>
